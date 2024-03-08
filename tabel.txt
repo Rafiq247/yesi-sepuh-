@@ -1,0 +1,42 @@
+ADMIN
+====================================
+menu
+-dashboard
+-Data Pegawai
+	 +pegawai
+	 +Jabatan
+-Absensi
+ 	 + Hari ini (KONFIRMASI KALAU DIA LEMBUR)
+	 + Data Bulanan (Tampilkan Potongan kalau dia terlembat)
+-Tunjangan Pegawai
+	 +TPP Pegawai
+-Laporan
+ 	 +Data Pegawai
+ 	 +Data Absensi
+ 	 +Data TPP
+-Data User/Hak Akses
+ 	 +User
+
+
+PEGAWAI
+=================================================================================
+Profile Pegawai
+Absensi
+
+Pegawai
+=================
+No, id_pegawai, Nama y, Jekel y, Agama y, Foto y, Jabatan y, Pendidikan y, status kepegawaian y, alamat lengkap y, KTP, Tanggal Masuk
+
+Jabatan
+=================================
+No, Nama jabatan, golongan, keterangan, aksi
+
+TPP Pegawai
+=======================
+nama_pegawai,tanggal, gaji_pokot, bonus, lembur, Pot_kehadiran, 
+
+
+
+
+
+untuk update profile pegawai gunakan template wizard

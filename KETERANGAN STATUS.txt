@@ -1,0 +1,49 @@
+Ketentuan
+========================================================================
+1. Sistem ini dibuat sesuai pada apa yang ditampilkan di video, apabila ada tambahan atau kekeliruan viewers itu ditanggung sendiri.
+2. Pemesan dapat memodifikasi, menyalin atau menambahkan kodingan sistem sesuai keinginan masing-masing.
+3. Jangan menyebar luaskan Sistem informasi ini (hargai usaha programmer)
+4. Terimakasih sudah order, Semoga sukses dan sesuai dengan yang di inginkan
+
+
+
+
+Nama File     : SitemKepegawaian
+Nama Database : db_kepegawaian
+
+Demo/review aplikasi sistem informasi absensi(Geolocation) dan penggajian pegawai berbasis web yang dibangun menggunakan framework codeigniter,
+Sistem informasi ini merupakan sistem yang dipakai untuk memanajemen absensi pegawai yang mana hanya bisa mengambil absen apabila si pengambil
+absen berada di wilayah jangkauan sistem dan juga digunakan untuk menghitung besaran gaji yang di ambil dari absen masuk, lembur dan bonus yang 
+dikerjakan oleh pegawai tersebut.
+
+
+Mempunyai dua buah akses
+1. Admin :
+             admin@gmail.com
+             123
+
+2. Pegawai : 
+	    satriarahmatputra27@gmail.com
+	    anggota1
+             
+
+Fitur Admin (CRUD dan Search)
+-  DATA JABATAN
+-  DATA PEGAWAI
+-  INPUT LEMBUR HARI INI
+-  KONFIRMASI ABSEN
+-  INPUT GAJI PEGAWAI
+-  RESET AKUN PEGAWAI
+-  LAPORAN
+     + Data Absen Bulanan (akumulasi presensi bagi keseluruhan pegawai)
+     + Detail Absen Bulanan (rincian presensi bagi pegawai tertentu)
+     +  Laporan Gaji (menampilkan detail atau rincian keseluruhan dari gaji pegawai)
+
+
+Fitur Pegawai
+- GANTI PROFIL (IMAGE DAN PASSWORD)
+- AMBIL ABSEN
+- LIHAT STATUS ABSENSI
+- LIHAT DETAIL PRESENSI BULANAN
+- LIHAT ATAU CETAK GAJI BULANAN
+
