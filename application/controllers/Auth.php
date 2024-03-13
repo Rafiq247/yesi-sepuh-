@@ -69,7 +69,9 @@ class Auth extends CI_Controller
   public function registration()
   {
     $this->form_validation->set_rules('name', 'Name', 'required|trim');
-    $this->form_validation->set_rules('email', 'Email', 'required|trim|valid_email|is_unique[user.email]');
+    $this->form_validation->set_rules('email', 'Email', 'required|trim|valid_email|is_unique[user.email]', [
+      'is_unique' => 'Email ini sudah terdaftar!'
+    ]);
     $this->form_validation->set_rules('password1', 'Password', 'required|trim|min_length[5]|matches[password2]', [
       'matches' => 'Password tidak sama!',
       'min_length' => 'Password terlalu pendek!'
@@ -83,8 +85,8 @@ class Auth extends CI_Controller
       $this->load->view('backend/template/Auth_footer');
     } else {
       $data = [
-        'name' => $this->input->post('name'),
-        'email' => $this->input->post('email'),
+        'name' => htmlspecialchars($this->input->post('name', true)),
+        'email' => htmlspecialchars($this->input->post('email', true)),
         'image' => 'default.jpg',
         'password' => password_hash($this->input->post('password'), PASSWORD_DEFAULT),
         'role_id' => 2,
